@@ -10,7 +10,6 @@
         .to.array(function(data){
             var output = {"seg0":{"name":data[0][0],"lt":data[0][1],"lat":data[0][2]}
             }
-            console.log(output);
             var body = JSON.stringify(output);
             console.log(body);
             res.end(body);
